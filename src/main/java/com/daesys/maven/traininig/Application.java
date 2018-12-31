@@ -2,8 +2,19 @@ package com.daesys.maven.training;
 
 import java.util.ArrayList;
 import java.util.List;
+import org.apache.commons.lang3.StringUtils;
 
 public class Application {
+    
+    public int countWord(String words){
+    
+        int nbWords = 0;
+        String[] wordSeparated = StringUtils.split(words,' ');
+        nbWords = (wordSeparated == null) ? 0 : wordSeparated.length;
+        return nbWords;
+   
+    }
+    
     
     public void greet(){
     
@@ -11,7 +22,7 @@ public class Application {
         greetings.add("Hello");
         
         for (String greeting : greetings) {
-            System.out.println("Greeting" + greeting);
+            System.out.println("Greetings " + greeting);
         }
     
     }
@@ -25,5 +36,7 @@ public class Application {
         System.out.println ("Starting Application");
         Application app = new Application();
         app.greet();
+        int count =  app.countWord("I have four words");
+        System.out.println("Count: " + count);
     }
 }
