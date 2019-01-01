@@ -1,0 +1,15 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< com.daesys.maven:maven-quick-start >-----------------
+[INFO] Building maven-quick-start 1.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ maven-quick-start ---
+[INFO] com.daesys.maven:maven-quick-start:jar:1.0
+[INFO] \- org.apache.commons:commons-lang3:jar:3.8.1:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.936 s
+[INFO] Finished at: 2018-12-31T01:15:31-05:00
+[INFO] ------------------------------------------------------------------------
